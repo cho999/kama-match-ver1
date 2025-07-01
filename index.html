@@ -102,6 +102,15 @@
     }
   </style>
 </head>
+  <!-- 秘密のクリックゾーン -->
+<div id="secretZone" style="position:absolute; top:100px; left:30px; width:200px; height:100px; opacity:0; cursor:pointer;"></div>
+
+<script>
+  document.getElementById('secretZone').addEventListener('click', function() {
+    window.location.href = "dakuten_mode.html";
+  });
+</script>
+
 <body>
   <h1>Kana Match</h1>
 
